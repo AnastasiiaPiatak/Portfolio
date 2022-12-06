@@ -57,10 +57,20 @@ h3 {
   box-shadow: var(--box-shadow);
   color: white;
 }
+.contact-link:hover{
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
 
 .about-link {
   color: var(--primary-color);
+   box-shadow: var(--box-shadow);
   border: 1px solid var(--primary-color);
+}
+.about-link:hover{
+  background: var(--primary-color);
+  color: white;
 }
 
 .homepage-link {
@@ -74,11 +84,6 @@ h3 {
   margin: 30px 0;
 }
 
-.about-paragraphs p {
-  margin: 10px;
-  font-size: 18px;
-  line-height: 1.5;
-}
 
 .email-link {
   display: flex;
@@ -102,4 +107,27 @@ h3 {
 
 .coder_name a:hover {
   text-decoration: underline;
+}
+@media (max-width: 600px) {
+  .name,
+  .about_title {
+    font-size: 50px;
+  }
+
+  .greeting,
+  .app_name {
+    font-size: 38px;
+  }
+
+  .name_info,
+  .about_info {
+    font-size: 18px;
+  }
+  .about_app {
+    font-size: 16px;
+  }
+  .app_button {
+    display: block;
+    margin: 0 auto;
+  }
 }
