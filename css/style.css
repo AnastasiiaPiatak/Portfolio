@@ -115,12 +115,14 @@ h3 {
   }
 
   .greeting,
-  .app_name {
+  .app_name,
+  .contact_me {
     font-size: 38px;
   }
 
   .name_info,
-  .about_info {
+  .about_info,
+  .email-link {
     font-size: 18px;
   }
   .about_app {
